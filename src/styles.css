@@ -1,0 +1,241 @@
+:root {
+    --dark-blue: #274c5b;
+    --mint-green: #7eb693;
+    --yellow: #EFD372;
+    --grey: #D4D4D4;
+    --white: #F5F5F5;
+    --dark-grey: #525C60;
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+p {
+    font-family: 'Open Sans';
+    color: var(--dark-grey);
+    font-size: 13px;
+}
+
+h2 {
+    color: var(--dark-blue) !important;
+    font-size: 40px !important;
+    font-weight: 800 !important;
+}
+
+h5 {
+    color: var(--dark-blue) !important;
+    font-size: 18px !important;
+    font-weight: 800 !important;
+}
+
+h6 {
+    color: var(--mint-green) !important;
+    font-size: 20px !important;
+    font-family: Yellowtail;
+}
+
+.form-control:focus {
+    border-color: rgb(39, 76, 91) !important;
+    box-shadow: 0 0 0 0.25rem rgba(39, 76, 91, 0.35) !important;
+}
+
+.primary-btn {
+    border-radius: 10px;
+    border: none;
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 12px 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.secondary-btn {
+    border-radius: 10px;
+    border: none;
+    background-color: var(--yellow);
+    color: var(--dark-blue);
+    padding: 12px 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.outline-btn {
+    border-radius: 10px;
+    border: 1px solid var(--dark-blue);
+    background-color: transparent;
+    color: var(--dark-blue);
+    padding: 12px 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.primary-btn i, .secondary-btn i, .outline-btn i {
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    font-size: 11px;
+}
+
+.primary-btn i {
+    background-color: #335B6B;
+}
+
+.secondary-btn i, .outline-btn i {
+    background-color: var(--dark-blue);
+}
+
+.product-card {
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.product-card img {
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.category {
+    color: #fff !important;
+    background-color: var(--dark-blue);
+    border-radius: 8px;
+    padding: 5px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Open Sans';
+    cursor: pointer;
+}
+
+.product-card h4 {
+    color: var(--dark-blue);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+hr {
+    color: #B8B8B8 !important;
+}
+
+s {
+    color: #B8B8B8;
+    font-size: 13px;
+}
+
+.product-card span {
+    color: var(--dark-blue);
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.fa-star {
+    color: #FFA858;
+}
+
+.cover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.cover h1 {
+    color: var(--dark-blue);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.new-image {
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+}
+
+.date {
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+}
+
+.new-content {
+    position: relative;
+    top: -200px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 46px 57px 60px 57px;
+    box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
+    width: 90%;
+    margin: auto;
+}
+
+.new-content span {
+    color: var(--dark-blue);
+    font-family: Yellowtail;
+}
+
+.new-content span i {
+    color: var(--yellow);
+}
+
+.new-content h5 {
+    font-size: 20px !important;
+}
+
+.tommeto {
+    background-image: url(assets/imgs/tommeto.png);
+}
+
+.vitamen-D {
+    background-image: url(assets/imgs/vitamen-D.png);
+}
+
+.middle {
+    background-color: #FFF;
+    box-shadow: 0px 29px 44px rgba(150, 150, 150, 0.4);
+}
+
+.team-card {
+    border-radius: 20px;
+    background-color: var(--white);
+}
+
+.team-img img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.team-info i {
+    color: var(--dark-blue);
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    place-content: center;
+    background-color: var(--white);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.circle:hover {
+    background-color: #7eb693;
+}
+
+.circle i {
+    font-size: 18px;
+    color: var(--dark-blue);
+}

@@ -1,0 +1,7 @@
+.cover{
+    background-image: url(../../assets/imgs/portfolio-cover.jpg);
+}
+.portfolio img{
+    border-radius: 20px;
+    margin-bottom: 20px;
+}

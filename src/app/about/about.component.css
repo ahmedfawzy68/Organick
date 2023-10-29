@@ -1,0 +1,62 @@
+.cover {
+    background-image: url(../../assets/imgs/about-cover.jpg);
+}
+
+.choose-us {
+    background-color: var(--white);
+}
+
+.circle-container {
+    width: 280px;
+    height: 60px;
+    display: grid;
+    place-content: center;
+    border-radius: 30px;
+    background: #ECECEC;
+}
+
+.circle-container h4 {
+    color: var(--dark-blue);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.choose-us-img img {
+    border-radius: 25px;
+}
+
+.single-reason {
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.icon-card {
+    background-color: var(--white);
+    border-radius: 15px;
+    width: 70px;
+    height: 70px;
+    display: grid;
+    place-content: center;
+    margin: auto;
+}
+
+
+
+.offer {
+    background-color: var(--dark-blue);
+    margin-bottom: 100px;
+}
+
+.single-offer {
+    height: 320px;
+    border-radius: 20px;
+    background-color: #fff;
+    display: grid;
+    place-content: center;
+}
+
+.single-offer img {
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+}

@@ -1,0 +1,30 @@
+.subscripe {
+    background-image: url(../../assets/imgs/subscripe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    min-height: 300px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
+
+h3 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: var(--dark-blue);
+    color: white;
+    border: none;
+}
+
+input {
+    padding: 10px 20px;
+}

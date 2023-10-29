@@ -1,0 +1,38 @@
+.col-lg-4:first-child {
+    border-right: 1px solid #B8B8B8;
+}
+
+.col-lg-4:last-child {
+    border-left: 1px solid #B8B8B8;
+}
+
+h4 {
+    color: var(--dark-blue);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h5 {
+    color: #525C60;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Open Sans';
+}
+
+.container-fluid {
+    color: var(--dark-grey);
+    font-family: 'Open Sans';
+    font-size: 18px;
+}
+
+a {
+    color: var(--dark-grey);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+@media (max-width:900px) {
+    .col-lg-4 {
+        border: none !important;
+    }
+}

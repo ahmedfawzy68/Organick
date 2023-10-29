@@ -1,0 +1,59 @@
+.cover {
+    background-image: url(../../assets/imgs/contact-cover.jpg);
+}
+
+.fruits img {
+    height: 500px;
+    border-radius: 20px;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: var(--white);
+    display: grid;
+    place-content: center;
+}
+
+.location {
+    background-image: url(../../assets/imgs/location.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    border-radius: 30px;
+}
+
+.location-box {
+    background-color: white;
+    border-radius: 20px;
+}
+
+form label {
+    padding: 10px;
+    color: var(--dark-blue);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form-control {
+    padding: 16px 23px;
+    border-radius: 10px;
+    border: 1px solid #7EB693;
+}
+
+textarea{
+    resize: none;
+}
+
+@media (max-width: 500px) {
+    .fruits img {
+        height: 350px;
+    }
+}
+
+@media (min-width: 300px) and (max-width:370px) {
+    .fruits img {
+        height: 300px;
+    }
+}

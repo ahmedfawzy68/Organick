@@ -1,0 +1,31 @@
+.cover {
+    background-image: url(../../assets/imgs/services-cover.jpg);
+}
+
+.organic-only{
+    background-image: url(../../assets/imgs/services-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    padding-top: 150px;
+}
+
+.organic-only p{
+    font-size: 15px;
+}
+
+.play{
+    width: 80px;
+    height: 80px;
+    background-color: #7EB693;
+    color: white;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.play:hover{
+    background-color: var(--dark-blue);
+}
