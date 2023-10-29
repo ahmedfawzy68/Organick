@@ -1,5 +1,5 @@
 .not-found {
-    background-image: url(../../assets/imgs/404.jpg);
+    background-image: url(../../assets/imgs/notfound.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
@@ -7,7 +7,7 @@
     margin-bottom: 100px;
     padding-right: 100px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     text-align: center;
 }
